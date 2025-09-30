@@ -1,40 +1,26 @@
-/* General Page Styles */
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-/* Header Styles */
 header {
-    background: #24292f;
-    color: white;
-    padding: 20px 0;
+  background: green;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 h1 {
-    margin: 0;
+  font-size: 2.5rem;
 }
 
-/* Section Cards */
 .task {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
-    margin: 20px auto;
-    padding: 20px;
-    width: 80%;
-    max-width: 600px;
-    text-align: left;
-}
-
-/* Footer Styles */
-footer {
-    background: #24292f;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 14px;
+  background: white;
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }

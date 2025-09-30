@@ -1,26 +1,66 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+/* General reset */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
 header {
-  background: green;
+  background: linear-gradient(90deg, #2c7a7b, #38b2ac);
   color: white;
   text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Section Styling */
+section {
+  max-width: 900px;
+  margin: 40px auto;
   padding: 20px;
 }
 
-h1 {
-  font-size: 2.5rem;
+/* Card Style */
+.task, .about {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.task {
-  background: white;
+.task:hover, .about:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* Headings */
+h2 {
+  color: #2c7a7b;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #2c7a7b;
+  color: white;
   padding: 15px;
-  margin: 20px auto;
-  width: 80%;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-top: 40px;
+  font-size: 0.9rem;
 }
